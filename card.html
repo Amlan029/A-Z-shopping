@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>product card</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style type="text/css">
+      #card {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        width: 250px;
+        height: 350px;
+        background-color: whitesmoke;
+        border: 1px solid black;
+      }
+      #img {
+        max-width: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .font {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20px;
+      }
+      .checked {
+        color: orange;
+      }
+      button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 250px;
+        background-color: orange;
+      }
+      #b1 {
+        font-size: 20px;
+        width: 150px;
+        border-radius: 10px;
+      }
+      #b2 {
+        width: 150px;
+        font-size: 20px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="card">
+      <img id="img" src="fur.jpg" alt="fur" />
+      <p class="font" style="text-align: center">Godrej Sofa</p>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+      <h4 style="text-align: center">₹12,999</h4>
+      <button id="b1">Buy Now</button><br />
+      <button id="b2">Add to Cart</button>
+    </div>
+  </body>
+</html>

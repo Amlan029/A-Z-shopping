@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>A-Z Sign-up</title>
+    <style type="text/css">
+      body {
+        background-image: url("back.jpg");
+      }
+      #position {
+        position: absolute;
+        top: 1em;
+        left: 30%;
+        height: 48em;
+        width: 35em;
+        border-radius: 5px;
+        background-color: rgba(243, 215, 247, 0.418);
+      }
+      #h2 {
+        position: absolute;
+        top: 1em;
+        left: 35%;
+      }
+      #Form {
+        position: absolute;
+        top: 20%;
+        left: 18%;
+      }
+      .form {
+        height: 2em;
+        width: 24em;
+      }
+      #button {
+        position: absolute;
+        height: 3em;
+        width: 12em;
+        top: 95%;
+        left: 6em;
+        background-color: antiquewhite;
+        border: 1px solid black;
+        font-style: unset;
+        border-radius: 5px;
+      }
+      #button:hover {
+        background-color: white;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      body {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="position">
+      <h2 id="h2"><i class="fa fa-fw fa-user"></i>Sign-up</h2>
+      <form id="Form" class="d-flex">
+        <label for="fname"><b> First name</b></label
+        ><br /><br />
+        <input
+          class="form"
+          type="text"
+          placeholder="Enter First name"
+          required
+        /><br /><br />
+        <label for="lname"> <b>Last name</b></label
+        ><br /><br />
+        <input
+          class="form"
+          type="text"
+          placeholder="Enter Last name"
+          required
+        /><br /><br />
+        <label for="e-mail"><b> E-Mail</b></label
+        ><br /><br />
+        <input
+          class="form"
+          type="email"
+          placeholder="Enter e-mail"
+          required
+        /><br /><br />
+        <label for="Password"><b>Password</b></label
+        ><br /><br />
+        <input
+          class="form"
+          type="password"
+          placeholder="Enter password"
+          required
+        /><br /><br />
+        <label for="Address"><b>Enter Address</b></label
+        ><br /><br />
+        <input
+          class="form"
+          type="text"
+          placeholder="Enter Address"
+          required
+        /><br /><br />
+        <label for="Pin"><b>Enter PIN</b></label
+        ><br /><br />
+        <input
+          class="form"
+          type="text"
+          placeholder="Enter Pin Code"
+          required
+          pattern="^[0-9]{6}$"
+        /><br /><br />
+        <button id="button" class="btn btn-outline-success" type="submit">
+          Submit</button
+        ><br /><br />
+        <a href="login.html"><b>Log in</b></a>
+      </form>
+    </div>
+  </body>
+</html>

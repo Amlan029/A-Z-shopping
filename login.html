@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>A-Z Log in</title>
+    <style type="text/css">
+      body {
+        background-image: url("back.jpg");
+      }
+      #position {
+        position: relative;
+        top: 1em;
+        left: 32%;
+        height: 30em;
+        width: 30em;
+        border-radius: 5px;
+        background-color: rgba(243, 215, 247, 0.418);
+      }
+      #h2 {
+        position: absolute;
+        top: 2em;
+        left: 35%;
+      }
+      #Form {
+        position: absolute;
+        top: 25%;
+        left: 17%;
+      }
+      .form {
+        height: 2em;
+        width: 24em;
+      }
+      #button {
+        position: absolute;
+        height: 3em;
+        width: 12em;
+        top: 102%;
+        left: 6em;
+        background-color: antiquewhite;
+        border: 1px solid black;
+        font-style: unset;
+        border-radius: 5px;
+      }
+      #button:hover {
+        background-color: white;
+      }
+      body {
+        background-color: aqua;
+      }
+      a {
+        text-decoration: none;
+        position: absolute;
+        top: 108%;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="position">
+      <h2 id="h2"><i class="fa fa-fw fa-user"></i>Log In</h2>
+      <form id="Form" class="d-flex">
+        <label for="e-mail"><b> E-Mail</b></label
+        ><br /><br />
+        <input
+          class="form"
+          type="email"
+          placeholder="Enter e-mail"
+        /><br /><br />
+        <label for="Password"><b>Password</b></label
+        ><br /><br />
+        <input
+          class="form"
+          type="password"
+          placeholder="Enter password"
+        /><br /><br />
+        <button id="button" class="btn btn-outline-success" type="submit">
+          Submit</button
+        ><br />
+        <a href="Sign-up.html"><b>Sign-up</b></a>
+      </form>
+    </div>
+  </body>
+</html>
